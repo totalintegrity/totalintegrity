@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/test/</loc>
+    <loc>https://totalintegrity.eu/test/</loc>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://totalintegrity.eu/categories/</loc>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>https://totalintegrity.eu/tags/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://totalintegrity.eu/</loc>
   </url>
 </urlset>
