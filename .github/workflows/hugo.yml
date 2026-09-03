@@ -31,7 +31,7 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
+      - name: Build with Hugo
         run: hugo --minify
 
       - name: Upload artifact
