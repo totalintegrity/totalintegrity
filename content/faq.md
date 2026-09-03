@@ -4,7 +4,7 @@ title: "FAQ"
 
 <div style="margin: 15px 0 25px 0; text-align: left;">
   <a href="/search/" style="text-decoration: none; font-size: 1rem; display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border: 1px solid #ccc; border-radius: 4px;">
-    🔍 Search questions...
+    🔍 Search
   </a>
 </div>
 
