@@ -1,20 +1,13 @@
----
-title: "FAQ – Cyber-Physical & NIS2 Audits"
-date: 2026-09-03
-draft: false
-description: "Frequently asked questions about our Total Integrity audits, IEC 62443 compliance, and hard-to-reach technical inspections."
----
+## FAQ
 
-# Frequently Asked Questions
+### Why do I need a physical security audit when industrial systems are monitored remotely?
+Remote systems (SCADA/Cloud) only see what the system "wants" to show. They ignore air-gapped networks, physically plugged shadow devices, or high-altitude radio frequency leaks. A physical audit verifies layer 0 and 1 integrity (according to the Purdue model), which is an absolute requirement under the NIS2 directive and a core standard at Total Integrity.
 
-### What is a Total Integrity Audit?
-It is a comprehensive technical and physical evaluation that bridges the gap between traditional industrial assets (OT layers L0/L1) and digital compliance requirements. We inspect physical components and security vulnerabilities where standard IT teams cannot reach.
+### How does a Strategic Infrastructure Integrity Audit (SIIA) differ from a standard IT audit?
+A standard IT audit focuses on office software and servers. Our SIIA approach at Total Integrity is dedicated to the OT/ICS (Operational Technology) sector. We combine the technical state of physical components (turbines, masts, dams) with industrial protocol analysis (e.g., Modbus) and business risk assessment.
 
-### How do you help companies comply with the NIS2 directive?
-We deliver rigorous technical assessments based on international standards like IEC 62443. Our audits provide the deep structural and cyber-physical verification required to meet modern European regulatory frameworks.
+### How does combining technical inspections with cybersecurity lower operating costs?
+By sending a single specialist equipped with engineering, auditing, and access credentials (ropes/water), you eliminate the need to coordinate multiple separate subcontractors. You save on logistics, reduce facility downtime by a double-digit margin, and receive a cohesive executive report backed by Total Integrity.
 
-### What is the "White Glove Service" for service providers?
-We act as your internal "pre-audit" partner. Before an external auditor or operator inspects your installations, we verify your technical assets and documentation, helping you look completely professional and fully compliant.
-
-### How do rope access skills apply to cybersecurity and audits?
-Many critical industrial components (such as wind turbine sensors, heavy infrastructure connections, and antenna arrays) are located in hard-to-reach places. Our high-access competencies allow us to physically inspect and secure the exact layers that software scans miss.
+### What penalties apply for non-compliance with the NIS2 directive in the critical sector?
+Under the new EU regulations, essential and important entities in the energy, transport, and digital sectors face severe financial penalties (reaching up to 10 million Euros or 2% of total worldwide annual turnover) as well as personal liability for management boards regarding cybersecurity failures.
