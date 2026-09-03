@@ -3,7 +3,7 @@
 Ready to secure your critical infrastructure and ensure full NIS2 compliance? Get in touch with us to discuss your operational needs or schedule a comprehensive audit with Total integrity.
 
 **Direct Contact:**
-* **Email:** ops@totalintegrity.eu
+* **Email:** contact@totalintegrity.eu
 * **Region of Operation:** EMEA (Europe-wide field deployment for high-altitude and specialized industrial inspections)
 
 **Inquiry Form / Next Steps:**
