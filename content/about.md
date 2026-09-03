@@ -1,17 +1,23 @@
 ---
-title: "Total integrity | Cyber-Physical & NIS2 Audit"
+title: "About Us & Expertise – Total integrity"
 date: 2026-09-03
 draft: false
-description: "Cyber-physical infrastructure inspections and technical compliance for critical assets under NIS2 and IEC 62443."
+description: "Technical expertise behind Total integrity. Industrial engineering, hard-to-reach access, and specialized NIS2 compliance."
 ---
 
-# Total integrity: Cyber-Physical & Technical Audits
+# About Total integrity & Technical Expertise
 
-We deliver high-precision **Total integrity Audits**, bridging the gap between rigorous industrial access and digital compliance. We specialize in assessing critical infrastructure, operational technology (OT) layers (L0/L1), and physical security where standard IT teams cannot reach.
+Total integrity was established to solve a critical blind spot in modern European cybersecurity: bridging the gap between high-level regulatory mandates and the physical, hard-to-reach operational layers (L0/L1) that standard IT audits miss.
 
-## Core Technical Domains
-* **Cyber-Physical Compliance (NIS2 / IEC 62443):** Technical evaluations aligning operational assets with regulatory frameworks.
-* **Hard-to-Reach Technical Inspections:** Advanced field methodologies and rope access expertise to inspect physical layers, enclosures, and critical hardware interfaces.
-* **White Glove Service for Service Providers:** Pre-audits and internal technical verification before official regulatory or insurance inspections.
+## Core Technical Domains & NIS2 Focus
+* **NIS2 & Regulatory Compliance:** Direct technical support for essential and important entities required to secure their infrastructure under the EU NIS2 directive.
+* **Industrial Asset Engineering:** Deep technical background across manufacturing, energy sectors, and critical infrastructure management.
+* **High-Access Field Execution:** Specialized industrial skills combined with advanced rope access expertise to physically inspect, audit, and secure hard-to-reach physical assets and OT interfaces.
 
-> *Need expert technical verification? Explore our FAQ or get in touch.*
+## Standards & Frameworks
+Our technical verifications align operational reality with global standards:
+* **Cyber-Physical & OT Security:** Competencies mapped to **IEC 62443** for Industrial Automation and Control Systems.
+* **Structural Methodology:** Precision-driven process control and rigorous validation of physical system components.
+* **Field Safety & Operations:** Certified operational safety frameworks designed for hazardous and high-altitude industrial environments.
+
+> *We don't check boxes on paper. We deliver deep technical validation of physical layers (L0/L1) to ensure true NIS2 resilience.*
