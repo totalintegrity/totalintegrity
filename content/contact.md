@@ -1,6 +1,6 @@
 ## Contact
 
-Ready to secure your critical infrastructure and ensure full NIS2 compliance? Get in touch with us to discuss your operational needs or schedule a comprehensive audit with Total Integrity.
+Ready to secure your critical infrastructure and ensure full NIS2 compliance? Get in touch with us to discuss your operational needs or schedule a comprehensive audit with Total integrity.
 
 **Direct Contact:**
 * **Email:** ops@totalintegrity.eu
