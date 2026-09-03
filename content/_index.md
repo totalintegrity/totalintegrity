@@ -15,6 +15,3 @@ We deliver high-precision **Total integrity Audits**, bridging the gap between r
 * **White Glove Service for Service Providers:** Pre-audits and internal technical verification before official regulatory or insurance inspections.
 
 > *Need expert technical verification? Explore our FAQ or get in touch.*
-* **White Glove Service for Service Providers:** Pre-audits and internal verification that safeguard your operational reputation before official regulatory or insurance inspections take place.
-
-> *Need expert technical verification or a complete Total Integrity Report? Explore our FAQ or get in touch with us directly.*
