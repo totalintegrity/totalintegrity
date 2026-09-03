@@ -1,8 +1,12 @@
 ---
-title: "FAQ"
+title: "Frequently Asked Questions"
 ---
 
-<h2 style="font-size: 1.3rem; margin-bottom: 20px;">Frequently Asked Questions</h2>
+<style>
+  .post-title {
+    font-size: 1.5rem !important;
+  }
+</style>
 
 <details style="margin-bottom: 10px; padding: 4px;">
 <summary style="font-weight: bold; cursor: pointer;">Why do I need a physical security audit when industrial systems are monitored remotely?</summary>
