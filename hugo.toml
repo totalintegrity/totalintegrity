@@ -2,3 +2,20 @@ baseURL = 'https://totalintegrity.eu/'
 locale = 'en-us'
 title = 'Total integrity'
 theme = "papermod"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "faq"
+    name = "FAQ"
+    url = "/faq/"
+    weight = 20
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 30
