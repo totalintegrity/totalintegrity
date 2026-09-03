@@ -3,12 +3,12 @@ locale = 'en-us'
 title = 'Total Integrity'
 theme = "papermod"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   searchEnabled = true
   fuseOpts = { isCaseSensitive = false, includeScore = true, shouldSort = true, location = 0, distance = 100, threshold = 0.4, minMatchCharLength = 2, keys = ["title", "permalink", "summary", "content"] }
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
 
 [menu]
   [[menu.main]]
@@ -26,8 +26,14 @@ theme = "papermod"
     name = "Contact"
     url = "/contact/"
     weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "🔍"
+    url = "/search/"
+    weight = 40
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
