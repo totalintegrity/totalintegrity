@@ -1,15 +1,6 @@
 ---
-title: "FAQ"
+title: "Frequently Asked Questions"
 ---
-
-<div style="margin: 15px 0 25px 0; text-align: left;">
-  <a href="/search/" style="text-decoration: none; font-size: 1rem; display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border: 1px solid #ccc; border-radius: 4px;">
-    🔍 Search
-  </a>
-</div>
-
-## Frequently Asked Questions
-
 <details style="margin-bottom: 10px; padding: 4px;">
 <summary style="font-weight: bold; cursor: pointer;">Why do I need a physical security audit when industrial systems are monitored remotely?</summary>
 <p style="margin-top: 8px;">Remote systems (SCADA/Cloud) only see what the system is programmed to show. They ignore air-gapped networks, physically plugged shadow devices, or high-altitude radio frequency leaks. A physical audit verifies layer 0 and 1 integrity (according to the Purdue model), which is an absolute requirement under the NIS2 directive and a core standard at Total Integrity.</p>
