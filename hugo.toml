@@ -1,4 +1,3 @@
-
 baseURL = 'https://totalintegrity.eu/'
 locale = 'en-us'
 title = 'Total Integrity'
@@ -23,11 +22,6 @@ theme = "papermod"
     url = "/faq/"
     weight = 20
   [[menu.main]]
-    identifier = "search"
-    name = "🔍"
-    url = "/search/"
-    weight = 25
-  [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
@@ -37,5 +31,4 @@ theme = "papermod"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
 
