@@ -1,6 +1,6 @@
 baseURL = 'https://totalintegrity.eu/'
 locale = 'en-us'
-title = 'Total Integrity'
+title = 'Total integrity'
 theme = "papermod"
 
 [outputs]
