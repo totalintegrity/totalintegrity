@@ -26,9 +26,13 @@ theme = "papermod"
     name = "Contact"
     url = "/contact/"
     weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "🔍"
+    url = "/search/"
+    weight = 40
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
