@@ -1,1 +1,59 @@
+{{- if (.Param "ShowBreadCrumbs") -}}
+<nav class="breadcrumbs">
+  <ol>
+    {{- $url := replace $.Permalink ($.GetPage "section").Site.BaseURL "" -}}
+    {{- $url := strings.TrimPrefix "/" $url -}}
+    {{- $path := split $url "/" -}}
+    {{- $fullUrl := "" -}}
+    <li>
+      <a href="{{ "" | absURL }}">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+      </a>
+    </li>
+    {{- range $index, $element := $path -}}
+      {{- if ne $element "" -}}
+        {{- $fullUrl = printf "%s/%s" $fullUrl $element -}}
+        {{- with $.Site.GetPage $fullUrl -}}
+          <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </li>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  </ol>
+</nav>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ "" | absURL }}"
+    }
+    {{- $fullUrl := "" -}}
+    {{- range $index, $element := $path -}}
+      {{- if ne $element "" -}}
+        {{- $fullUrl = printf "%s/%s" $fullUrl $element -}}
+        {{- with $.Site.GetPage $fullUrl -}}
+        ,
+        {
+          "@type": "ListItem",
+          "position": {{ add $index 2 }},
+          "name": "{{ .Title }}",
+          "item": "{{ .Permalink }}"
+        }
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  ]
+}
+</script>
+{{- end -}}
 
